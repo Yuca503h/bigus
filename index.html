@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bigus - Empresa Digital</title>
+    <!-- Vinculación con Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #a8d5ba; /* Verde pastel */
+            color: #333;
+        }
+
+        header {
+            background-color: #76c7a5; /* Verde más oscuro */
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: white;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        .intro {
+            background-color: #c1e6d3;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .service-box {
+            background-color: #76c7a5;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+        }
+
+        footer {
+            background-color: #76c7a5;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar (Menú de navegación) -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bigus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link" _msttexthash="95589" _msthash="86">Inicio</a></li>
+                        <li class="nav-item"><a href="bigus.html" class="nav-link" _msttexthash="95589" _msthash="86">Productos</a></li>
+            <li class="nav-item"><a href="biguscurso.html" class="nav-link" _msttexthash="425438" _msthash="87">Curso de pulseras</a></li>
+            <li class="nav-item"><a href="bigusinfo.html" class="nav-link" _msttexthash="107419" _msthash="88">Acerca de</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="intro">
+        <h2>Bienvenidos a Bigus</h2>
+        <p>Transformamos tu presencia digital con soluciones innovadoras y creativas. ¡Descubre nuestras pulseras únicas y aprende a hacerlas de manera gratuita!</p>
+    </section>
+
+    <!-- Sección Acerca de Nosotros -->
+    <section id="acerca" class="container py-5">
+        <h2 class="text-center"><a href="bigusinfo.html" class="nav-link" _msttexthash="107419" _msthash="88">Acerca de Nosotros</a></h2>
+        <p>En Bigus, nos dedicamos a ofrecer productos únicos como pulseras artesanales y enseñamos cómo hacerlas de manera fácil y divertida. Nuestro objetivo es combinar creatividad, estilo y aprendizaje en cada uno de nuestros servicios.</p>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="container py-5">
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="service-box">
+                    <h3><a href="bigus.html" class="nav-link" _msttexthash="95589" _msthash="86">Venta de Pulseras</a></h3>
+                    <p>Ofrecemos una amplia variedad de pulseras artesanales, hechas a mano con materiales de alta calidad. Cada pulsera es única y diseñada para destacar tu estilo.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-box">
+                    <h3><a href="biguscurso.html" class="nav-link" _msttexthash="425438" _msthash="87">Cursos de Pulseras Gratis</a></h3>
+                    <p>Aprende a hacer tus propias pulseras con nuestros cursos gratuitos. Ofrecemos tutoriales sencillos para que puedas crear piezas únicas para ti o para regalar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="container py-5">
+        <h2 class="text-center">Contacto</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 contact-form">
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bigus - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+    

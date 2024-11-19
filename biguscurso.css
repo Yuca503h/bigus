@@ -1,0 +1,84 @@
+element.style {
+
+    @media (min-width: 768px) {
+        .container, .container-md, .container-sm {
+            max-width: 720px;
+        }
+    }
+    @media (min-width: 576px) {
+        .container, .container-sm {
+            max-width: 540px;
+        }
+    }
+    .fs-4 {
+        font-size: calc(1.275rem + .3vw) !important;
+    }
+    div {
+        display: block;
+        unicode-bidi: isolate;
+    }
+    body{
+        margin: 0;
+        font-family: var(--bs-body-font-family);
+        font-size: var(--bs-body-font-size);
+        font-weight: var(--bs-body-font-weight);
+        line-height: var(--bs-body-line-height);
+        color: var(--bs-body-color);
+        text-align: var(--bs-body-text-align);
+    
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    body {
+        display: block;
+        margin: 8px;
+    }
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+        unicode-bidi: isolate;
+    }
+    .nav-pills {
+        --bs-nav-pills-border-radius: var(--bs-border-radius);
+        --bs-nav-pills-link-active-color: #93c099;
+        --bs-nav-pills-link-active-bg: #93c493b4;
+    }
+    .nav {
+        --bs-nav-link-padding-x: 1rem;
+        --bs-nav-link-padding-y: 0.5rem;
+        --bs-nav-link-font-weight: ;
+        --bs-nav-link-color: var(--bs-link-color);
+        --bs-nav-link-hover-color: var(--bs-link-hover-color);
+        --bs-nav-link-disabled-color: var(--bs-succes-color);
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    ul {
+        list-style-type: disc;
+    }
+    body {
+        display: block;
+        margin: 8px;
+    }
+    .py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1* var(--bs-gutter-y));
+        margin-right: calc(-.5* var(--bs-gutter-x));
+        margin-left: calc(-.5* var(--bs-gutter-x));}
+        .text-body-secondary {
+            --bs-text-opacity: 1;
+            color: var(--bs-secondary-color) !important;
+        }}
